@@ -1,4 +1,5 @@
 import Home from "./pages/Home";
+import Casos from "./pages/Casos";
 import {
   Routes,
   Route,
@@ -10,6 +11,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="casos" element={<Casos />} />
       </Routes>
     </>
   );
