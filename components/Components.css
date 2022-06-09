@@ -1,0 +1,45 @@
+
+
+.dados{
+    width: 100%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+
+    position: absolute;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+  
+}
+#text1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+#text2{
+    width:100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+#text3{
+    width:100%;
+
+    display: flex ;
+    justify-content: end;
+
+}
+

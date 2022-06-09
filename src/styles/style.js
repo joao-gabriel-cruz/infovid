@@ -42,30 +42,6 @@ const Style = {
     },
   },
   styleCasos: {
-    Headers: {
-      width: '100%',
-      height: '70px',
-      display: 'flex',
-      alignItems: 'flex-end',
-      justifyContent: 'space-around',
-    },
-    Icons: {
-      width: '150px',
-      display: 'flex',
-      justifyContent: 'space-around',
-      alignItems: 'flex-end',
-    },
-    IconButton: {
-      height: '30px',
-      width: '30px',
-      borderRadius: '50%',
-    },
-    dados: {
-      width: '100%',
-      height: '100%',
-      position: 'absolute',
-      color: '#fff',
-    },
     alertSecurity: {
       color: '#00B41D',
       display: 'flex',
@@ -81,11 +57,6 @@ const Style = {
       flexDirection: 'column',
       width: '300px',
       textAlign: 'center',
-    },
-    footerDicas: {
-      width: '100%',
-      height: '30px',
-     
     },
   },
 };

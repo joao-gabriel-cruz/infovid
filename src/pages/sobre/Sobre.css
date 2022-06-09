@@ -1,0 +1,52 @@
+
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3C7769;
+    margin-bottom: 5rem;
+}
+.headerIcon{
+    width:40%;
+    margin-left: 2rem;
+    display: flex;
+    font-size: 2rem;
+}
+
+.headerTitulo{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+section{
+    background-color: #151515 ;
+    color: #fff;
+}
+.sobreInfo{
+    
+    width: 100%;
+    
+   font-size: 1.5rem;
+   margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.sobreNos{
+    width: 100%;
+      
+    font-size: 1.5rem;
+    margin: 1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    margin-bottom: 6rem;
+}
