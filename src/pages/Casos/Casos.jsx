@@ -74,8 +74,8 @@ export default function Casos() {
       </header>
       <section>
         <div className='carrousel' >
-          <div>
-            <h1>Estados: {estado.state}</h1>
+          <div className='estado'>
+            <h1>Estado: {estado.state}</h1>
           </div>
 
           {casos ? (
