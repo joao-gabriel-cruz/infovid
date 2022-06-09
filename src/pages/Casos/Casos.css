@@ -20,6 +20,10 @@ nav button{
     height: 40px;
 }
 
+.estado{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
 .carrousel{
     width: 100%;

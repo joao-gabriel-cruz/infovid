@@ -57,13 +57,17 @@ export default function Casos() {
           </div>
           <div>
             <div>
-              <button style={Style.styleCasos.IconButton} onClick={AterarModo}>
+             
                 {darkMode ? (
-                  <BsMoon className="icon" />
+                 <button 
+                 className='iconHeaderMoon'
+                 style={Style.styleCasos.IconButton} onClick={AterarModo}>  <BsMoon className="icon" /> </button>
                 ) : (
-                  <BsSun className="icon" />
+                 <button 
+                 className='iconHeaderSun'
+                 style={Style.styleCasos.IconButton} onClick={AterarModo}>   <BsSun className="icon" /> </button>
                 )}
-              </button>
+             
             </div>
           </div>
         </nav>
@@ -71,7 +75,7 @@ export default function Casos() {
       <section>
         <div className='carrousel' >
           <div>
-            <h1>Estado: {estado.state}</h1>
+            <h1>Estados: {estado.state}</h1>
           </div>
 
           {casos ? (

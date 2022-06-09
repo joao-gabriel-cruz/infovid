@@ -7,7 +7,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: #3C7769;
-    margin-bottom: 5rem;
+    
 }
 .headerIcon{
     width:40%;
@@ -22,7 +22,7 @@ header{
     justify-content: start;
 }
 
-section{
+.section{
     background-color: #151515 ;
     color: #fff;
 }
@@ -48,5 +48,5 @@ section{
     flex-direction: column;
 
     justify-content: center;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }

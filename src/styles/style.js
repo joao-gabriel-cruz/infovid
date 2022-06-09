@@ -42,6 +42,7 @@ const Style = {
     },
   },
   styleCasos: {
+    
     alertSecurity: {
       color: '#00B41D',
       display: 'flex',
@@ -57,6 +58,10 @@ const Style = {
       flexDirection: 'column',
       width: '300px',
       textAlign: 'center',
+    },
+    footerDicas: {
+      width: '100%',
+      height: '30px',
     },
   },
 };

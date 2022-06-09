@@ -69,7 +69,7 @@ function Home() {
         </div>
       </div>
       <Container>
-        <div className='section'>
+        <section>
           <div className="headerText">
             <h2>
               Bem vindo ao <span>infovid</span>, o app com informações sobre a
@@ -133,7 +133,7 @@ function Home() {
               allowFullScreen
             ></iframe>
           </div>
-        </div>
+        </section>
       </Container>
 
       <footer

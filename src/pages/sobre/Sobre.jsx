@@ -16,7 +16,7 @@ function Sobre() {
           <h1>Informações</h1>
         </div>
       </header>
-      <section>
+      <div className='section'>
         <Container>
           <div className="sobreInfo">
             <h2>Sobre o app</h2>
@@ -52,7 +52,7 @@ function Sobre() {
             </p>
           </div>
         </Container>
-      </section>
+      </div>
     </section>
   );
 }
