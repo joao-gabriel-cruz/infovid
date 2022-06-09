@@ -1,6 +1,9 @@
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import { Container } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { version } from '../../../package.json';
+
+
 import './Sobre.css';
 
 function Sobre() {
@@ -53,6 +56,9 @@ function Sobre() {
           </div>
         </Container>
       </div>
+      <footer>
+        <p>Versão {version}</p>
+      </footer>
     </section>
   );
 }
