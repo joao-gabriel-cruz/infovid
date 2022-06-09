@@ -55,10 +55,10 @@ function Sobre() {
             </p>
           </div>
         </Container>
-      </div>
-      <footer>
+        <footer>
         <p>Versão {version}</p>
       </footer>
+      </div>
     </section>
   );
 }
